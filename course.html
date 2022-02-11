@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://kit.fontawesome.com/13d9b1abc5.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="device-width, initial-scale=1.0" />
+    <title>University Web Design</title>
+    <link rel="stylesheet" href="css/styling.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="Home.html"><img src="./projectimages/logo.png" alt="" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fas fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="Home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT-US</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+    <!---Course-->
+    <section class="course">
+      <h1>The Courses We Offer</h1>
+      <p>
+        A paragraph is a series of related sentences developing a central idea,
+        called the topic.
+      </p>
+      <div class="row">
+        <div id="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            A paragraph is a series of related sentences developing a central
+            idea, called the topic. Try to think about paragraphs in terms of
+            thematic unity: a paragraph is a sentence or a group of sentences
+            that supports one central, unified idea.
+          </p>
+        </div>
+        <div id="course-col">
+          <h3>Degree</h3>
+          <p>
+            A paragraph is a series of related sentences developing a central
+            idea, called the topic. Try to think about paragraphs in terms of
+            thematic unity: a paragraph is a sentence or a group of sentences
+            that supports one central, unified idea.
+          </p>
+        </div>
+        <div id="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            A paragraph is a series of related sentences developing a central
+            idea, called the topic. Try to think about paragraphs in terms of
+            thematic unity: a paragraph is a sentence or a group of sentences
+            that supports one central, unified idea.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Facilities---->
+
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        A paragraph is a series of related sentences developing a central idea
+      </p>
+      <div class="row">
+        <div class="facility-col">
+          <img src="./projectimages/library.png" />
+
+          <h3>World Class Library</h3>
+          <p>
+            A paragraph is a series of related sentences developing a central
+            idea, called the topic. Try to think about paragraphs in terms of
+            thematic unity
+          </p>
+        </div>
+        <div class="facility-col">
+          <img src="./projectimages/basketball.png" />
+
+          <h3>Largest Play Ground</h3>
+          <p>
+            A paragraph is a series of related sentences developing a central
+            idea, called the topic. Try to think about paragraphs in terms of
+            thematic unity
+          </p>
+        </div>
+        <div class="facility-col">
+          <img src="./projectimages/cafeteria.png" />
+
+          <h3>Tasty And Healthy Food</h3>
+          <p>
+            A paragraph is a series of related sentences developing a central
+            idea, called the topic. Try to think about paragraphs in terms of
+            thematic unity
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Footer--->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        A paragraph is a series of related sentences developing a central idea,
+        called the topic<br />Try to think about paragraphs in terms of thematic
+        unity
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-google-plus-g"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-instagram-square"></i>
+      </div>
+    </section>
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showmenu() {
+        navlinks.style.right = "0";
+      }
+      function hidemenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
